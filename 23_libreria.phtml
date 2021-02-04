@@ -1,0 +1,40 @@
+<html>
+<meta charset="UTF-8">
+<head>
+   <title>Uso de Librerias y Funciones</title>
+</head>
+
+<body>
+
+  <?php
+
+
+
+  /*Este script define a la función cabecerapagina() en php
+  que escribe en html texto para volver a definir a otra
+  función en php PieDePagina que escribe más*/
+
+  /*Los archivos de librerias se crean en phtml*/
+  
+    function CabeceraPagina(){
+  ?>
+  <FONT SIZE="+1">Esta cabecera estará en todas sus páginas.</FONT><BR>
+  <hr>
+  <?
+  }
+
+  function PiePagina(){
+  ?>
+  <hr>
+  <FONT SIZE="-1">Este es el pie de página.</FONT><BR>
+  Autor: Joaquin Gracia
+  <?
+  }
+
+
+
+  ?>
+
+</body>
+
+</html>
